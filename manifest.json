@@ -1,0 +1,12 @@
+{
+  "name": "GoogleMeetRefreshPrevent",
+  "description": "Never accidentally refresh Google Meet tab again!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "js": ["background.js"],
+      "matches": ["https://meet.google.com/*"]
+    }
+  ]
+}
