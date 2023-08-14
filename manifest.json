@@ -12,8 +12,9 @@
   },
   "content_scripts": [
     {
-      "js": ["background.js"],
-      "matches": ["https://meet.google.com/*"]
+      "js": ["script.js"],
+      "matches": ["*://meet.google.com/*"],
+      "run_at": "document_end"
     }
   ]
 }
